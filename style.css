@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    color: #000;
+    text-align: center;
+}
+
+#time
+{
+    font-size: 8rem;
+}
+
+h1 
+{
+    margin: 3rem;
+}
+
+h2
+{
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+
+@media (max-width:700;) {
+    #time{
+        font-size: 6rem;
+    }
+}
+
